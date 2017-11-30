@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @compte.nom %>
+</p>
+
+<p>
+  <strong>Prenom:</strong>
+  <%= @compte.prenom %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @compte.email %>
+</p>
+
+<p>
+  <strong>Pwd:</strong>
+  <%= @compte.pwd %>
+</p>
+
+<p>
+  <strong>Pwdconfirme:</strong>
+  <%= @compte.pwdconfirme %>
+</p>
+
+<%= link_to 'Edit', edit_compte_path(@compte) %> |
+<%= link_to 'Back', comptes_path %>
